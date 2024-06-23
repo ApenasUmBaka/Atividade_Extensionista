@@ -1,0 +1,206 @@
+.content{
+    text-align: center;
+    padding-top: 04em;
+    height: 100vh;
+    transition: 0.7s ease;
+}
+
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.new_post{
+    width: 100%;
+    height: 240px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 0 ;
+    padding: 25px;
+
+    background: #44475A;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0,0,0.2);
+}
+
+div.new_post textarea{
+    color: #1c1c1c;
+}
+
+div.new_post div.info_user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.new_post div.info_user div.img_user{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+}
+
+div.new_post div.info_user strong{
+    font-size: 16px;
+    margin-left: 10px;
+    color:#b040ff;
+}
+
+div.new_post form.form_post{
+    background: #44475A;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.new_post form.form_post textarea{
+    height: 90px;
+    background: #fbfbfb;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    border: 0;
+    outline: none;
+}
+
+div.new_post form.form_post div.icons_and_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.new_post form.form_post div.icons_and_button div.icons{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.new_post form.form_post div.icons_and_button div.icons button{
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+div.new_post form.form_post div.icons_and_button button.btn_submit{
+    background: #b040ff;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    transition: background 1s ease;
+}
+
+div.new_post form.form_post div.icons_and_button button.btn_submit:hover{
+    background: #ff79c6;
+}
+
+ul.posts li.post{
+    margin-bottom: 50px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 3px rgba (0,0,0,0.05);   
+}
+
+ul.posts li.post div.info_user_post{
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.info_user_post div.name_and_hour{
+    margin-left: 10px;
+}
+
+ul.posts li.post div.info_user_post div.img_user_post{
+    padding: 4px;
+    width: 4%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+}
+
+ul.posts li.post div.info_user_post div.name_and_hour >strong{
+    color: #b040ff;
+}
+
+ul.posts li.post div.info_user_post div.name_and_hour >p{
+    color: #1c1c1c;
+    font-size: 12px;
+    padding: 1px;
+}
+
+ul.posts li.post >p{
+    width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #1c1c1c;
+    font-size: 16px;
+    padding: 1px;
+
+}
+
+ul.posts li.post p.text_post{
+    width: 100%;
+}
+
+ul.posts li.post div.action_btn_post{
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.action_btn_post button.files_post{
+    padding: 5px 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    color:#fff;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.7s ease-in-out;
+}
+
+ul.posts li.post div.action_btn_post button.files_post img{
+    margin-right: 5px;
+}
+
+.like{
+    background: #ff6b6b;
+}
+
+.like:hover{
+    background:rgb(170, 51, 51);
+}
+
+.comment{
+    background: #6272A4;
+}
+
+.comment:hover{
+    background: #384361;
+}
+
+.share{
+    background: #ff79c6 ;
+}
+
+.share:hover{
+    background: #864269;
+}
